@@ -47,7 +47,6 @@ class _MhCetState extends State<MhCet> {
                       ),
                     ),
                   ),
-
                   context.watch<Mhcetcontroller>().ofData == null
                       ? CircularProgressIndicator()
                       : Column(
@@ -84,207 +83,6 @@ class _MhCetState extends State<MhCet> {
                             ]
                           ],
                         )
-
-                  // Card(
-                  //   color: Colors.white,
-                  //   child: Container(
-                  //     child: ListTile(
-                  //         leading: Text(
-                  //           "2017 Question Paper",
-                  //           style: TextStyle(fontSize: 20),
-                  //         ),
-                  //         trailing: IconButton(
-                  //           onPressed: () {
-                  //             Navigator.pushReplacement(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                     builder: (context) => Dd()));
-                  //           },
-                  //           icon: Image.asset(
-                  //             "assets/Ds1.PNG",
-                  //             height: 40,
-                  //             width: 40,
-                  //             fit: BoxFit.fill,
-                  //           ),
-                  //         )),
-                  //     height: 50,
-                  //   ),
-                  // ),
-                  // Card(
-                  //   color: Colors.white,
-                  //   child: Container(
-                  //     child: ListTile(
-                  //         leading: Text(
-                  //           "2016 Question Paper",
-                  //           style: TextStyle(fontSize: 20),
-                  //         ),
-                  //         trailing: IconButton(
-                  //           onPressed: () {
-                  //             Navigator.pushReplacement(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                     builder: (context) => Dd()));
-                  //           },
-                  //           icon: Image.asset(
-                  //             "assets/Ds1.PNG",
-                  //             height: 40,
-                  //             width: 40,
-                  //             fit: BoxFit.fill,
-                  //           ),
-                  //         )),
-                  //     height: 50,
-                  //   ),
-                  // ),
-                  // Card(
-                  //   color: Colors.white,
-                  //   child: Container(
-                  //     child: ListTile(
-                  //         leading: Text(
-                  //           "2015 Question Paper",
-                  //           style: TextStyle(fontSize: 20),
-                  //         ),
-                  //         trailing: IconButton(
-                  //           onPressed: () {
-                  //             Navigator.pushReplacement(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                     builder: (context) => Dd()));
-                  //           },
-                  //           icon: Image.asset(
-                  //             "assets/Ds1.PNG",
-                  //             height: 40,
-                  //             width: 40,
-                  //             fit: BoxFit.fill,
-                  //           ),
-                  //         )),
-                  //     height: 50,
-                  //   ),
-                  // ),
-                  // Card(
-                  //   color: Colors.white,
-                  //   child: Container(
-                  //     child: ListTile(
-                  //         leading: Text(
-                  //           "2014 Question Paper",
-                  //           style: TextStyle(fontSize: 20),
-                  //         ),
-                  //         trailing: IconButton(
-                  //           onPressed: () {
-                  //             Navigator.pushReplacement(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                     builder: (context) => Dd()));
-                  //           },
-                  //           icon: Image.asset(
-                  //             "assets/Ds1.PNG",
-                  //             height: 40,
-                  //             width: 40,
-                  //             fit: BoxFit.fill,
-                  //           ),
-                  //         )),
-                  //     height: 50,
-                  //   ),
-                  // ),
-                  // Card(
-                  //   color: Colors.white,
-                  //   child: Container(
-                  //     child: ListTile(
-                  //         leading: Text(
-                  //           "2013 Question Paper",
-                  //           style: TextStyle(fontSize: 20),
-                  //         ),
-                  //         trailing: IconButton(
-                  //           onPressed: () {
-                  //             Navigator.pushReplacement(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                     builder: (context) => Dd()));
-                  //           },
-                  //           icon: Image.asset(
-                  //             "assets/Ds1.PNG",
-                  //             height: 40,
-                  //             width: 40,
-                  //             fit: BoxFit.fill,
-                  //           ),
-                  //         )),
-                  //     height: 50,
-                  //   ),
-                  // ),
-                  // Card(
-                  //   color: Colors.white,
-                  //   child: Container(
-                  //     child: ListTile(
-                  //         leading: Text(
-                  //           "2012 Question Paper",
-                  //           style: TextStyle(fontSize: 20),
-                  //         ),
-                  //         trailing: IconButton(
-                  //           onPressed: () {
-                  //             Navigator.pushReplacement(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                     builder: (context) => Dd()));
-                  //           },
-                  //           icon: Image.asset(
-                  //             "assets/Ds1.PNG",
-                  //             height: 40,
-                  //             width: 40,
-                  //             fit: BoxFit.fill,
-                  //           ),
-                  //         )),
-                  //     height: 50,
-                  //   ),
-                  // ),
-                  // Card(
-                  //   color: Colors.white,
-                  //   child: Container(
-                  //     child: ListTile(
-                  //         leading: Text(
-                  //           "2011 Question Paper",
-                  //           style: TextStyle(fontSize: 20),
-                  //         ),
-                  //         trailing: IconButton(
-                  //           onPressed: () {
-                  //             Navigator.pushReplacement(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                     builder: (context) => Dd()));
-                  //           },
-                  //           icon: Image.asset(
-                  //             "assets/Ds1.PNG",
-                  //             height: 40,
-                  //             width: 40,
-                  //             fit: BoxFit.fill,
-                  //           ),
-                  //         )),
-                  //     height: 50,
-                  //   ),
-                  // ),
-                  // Card(
-                  //   color: Colors.white,
-                  //   child: Container(
-                  //     child: ListTile(
-                  //         leading: Text(
-                  //           "2010 Question Paper",
-                  //           style: TextStyle(fontSize: 20),
-                  //         ),
-                  //         trailing: IconButton(
-                  //           onPressed: () {
-                  //             Navigator.pushReplacement(
-                  //                 context,
-                  //                 MaterialPageRoute(
-                  //                     builder: (context) => Dd()));
-                  //           },
-                  //           icon: Image.asset(
-                  //             "assets/Ds1.PNG",
-                  //             height: 40,
-                  //             width: 40,
-                  //             fit: BoxFit.fill,
-                  //           ),
-                  //         )),
-                  //     height: 50,
-                  //   ),
-                  // ),
                 ],
               ),
             ]),
@@ -300,11 +98,11 @@ class _MhCetState extends State<MhCet> {
             top: 50,
             child: Container(
               child: GestureDetector(
-            onTap: () {
-              Navigator.push(
-                  context, MaterialPageRoute(builder: (context) => Dd()));
-            },
-          ),
+                onTap: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => Dd()));
+                },
+              ),
               height: 100,
               width: 100,
               decoration: BoxDecoration(

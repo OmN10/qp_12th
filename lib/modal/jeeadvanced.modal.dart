@@ -19,7 +19,8 @@ class Example {
     return _data;
   }
 
-  static List<Example> ofFiles(List ofData) {
-    return ofData.map((e) => Example.fromJson(e)).toList();
+ static List<Example>ofFiles (List ofData){
+  return ofData.map((e)=> Example.fromJson(e)).toList();
+ }
   }
-}
+
